@@ -29,7 +29,7 @@ class Slice {
         sliced_3d_array = slice_3d_array(to_3d_arr, h, w);
         print_array(sliced_3d_array, w, h);
         w = 6; h = 2;
-        sliced_3d_array = slice_3d_array(to_3d_arr, 2, 6);
+        sliced_3d_array = slice_3d_array(to_3d_arr, h, w);
         print_array(sliced_3d_array, w, h);
     }
     public int[][] slice_2d_array(int[][] array, int r1, int c1, int r2, int c2){
