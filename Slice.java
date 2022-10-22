@@ -55,7 +55,7 @@ class Slice {
             }
             col_start += (array[0].length-width) * sign;
             sign *= -1;
-            row_start = ((dim_1+1) * width / array[0].length) * 2;
+            row_start = ((dim_1+1) * width / array[0].length) * height;
         }
         return new_array;
     }
